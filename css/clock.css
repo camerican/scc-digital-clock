@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.clock {
+  width: 500px;
+  height: 180px;
+  font-size: 64px;
+  font-family: Arial, sans-serif;
+  background-color: darkgreen;
+  border: 3px dashed black;
+}
+
+.clock > div {
+  text-align:center;
+  vertical-align: middle;
+  color: yellow;
+  float:left;
+  width:33%;
+  height:170px;
+  line-height: 170px;
+  border: 2px solid yellow;
+}
